@@ -13,7 +13,6 @@ import 'package:flutter_application_ecommerce/View/CartScreen/CheckoutScreen/blo
 import 'package:flutter_application_ecommerce/View/CartScreen/PaymentScreen/payment_screen.dart';
 import 'package:flutter_application_ecommerce/View/CartScreen/cart_screen.dart';
 import 'package:flutter_application_ecommerce/View/ProfileScreen/AddressScreen/address_screen.dart';
-import 'package:flutter_application_ecommerce/View/ProfileScreen/AuthenticationScreen/authentication_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
