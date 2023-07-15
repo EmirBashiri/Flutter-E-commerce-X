@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as Custom;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_ecommerce/Model/GetX/Controller/duplicate_controller.dart';
@@ -34,8 +34,8 @@ class ProfileScreen extends StatelessWidget {
           padding: const EdgeInsets.only(top: 20, right: 15, left: 15),
           child: Column(
             children: [
-              Badge(
-                position: BadgePosition.bottomEnd(),
+              Custom.Badge(
+                position: Custom.BadgePosition.bottomEnd(),
                 badgeColor: colors.primary,
                 badgeContent: SizedBox(
                     width: 30,

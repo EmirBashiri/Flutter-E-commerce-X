@@ -1,5 +1,5 @@
 import 'package:auto_size_text/auto_size_text.dart';
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as Custom;
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
@@ -113,8 +113,8 @@ class HomeProductView extends StatelessWidget {
           onTap: () {
             Get.to(DetailScreen(productEntity: product));
           },
-          child: Badge(
-            position: const BadgePosition(end: 0, top: 0),
+          child: Custom.Badge(
+            position: const Custom.BadgePosition(end: 0, top: 0),
             badgeColor: colors.blackColor,
             badgeContent: FavoriteBadge(
               product: product,
@@ -222,9 +222,9 @@ class ShopProductView extends StatelessWidget {
       onTap: () async {
         Get.to(DetailScreen(productEntity: product));
       },
-      child: Badge(
+      child: Custom.Badge(
         badgeColor: colors.whiteColor,
-        position: const BadgePosition(top: 0, end: 0),
+        position: const Custom.BadgePosition(top: 0, end: 0),
         badgeContent: FavoriteBadge(
           product: product,
           badgeBackgroundColor: colors.whiteColor,
@@ -281,9 +281,9 @@ class CartLengthBadge extends StatelessWidget {
     return ValueListenableBuilder(
       valueListenable: duplicateController.cartBoxListenable,
       builder: (context, value, child) {
-        return Badge(
+        return Custom.Badge(
           badgeColor: colors.primary,
-          position: const BadgePosition(bottom: 5, end: 10),
+          position: const Custom.BadgePosition(bottom: 5, end: 10),
           badgeContent: Container(
             alignment: Alignment.center,
             decoration:
