@@ -17,7 +17,7 @@ A flutter E-commerce app.
 
 ### Screens
 
-Intro , Home , Cart , Profile , Search , Checkout , Payment , Login$SignUp , Favorits , Order history , User Address , Shoping
+Intro , Home , Cart , Profile , Search , Checkout , Payment , Login & SignUp , Favorits , Order history , User Address , Shoping
 
 ### Development Notice
 
